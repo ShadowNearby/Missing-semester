@@ -13,4 +13,4 @@
 5. .gitconfig: graph = log --all --graph --decorate --oneline
 6. git config --global core.excludesfile ~/.gitignore_global
 7. after fixing the problem
-   git commit
+   git commit -m "fix problem" -s && git push -u origin main
